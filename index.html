@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' https://appsforoffice.microsoft.com; connect-src 'self' https://api.anthropic.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:" />
+    <meta name="csp-label" content="prod" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>提案書アシスト</title>
+    <!-- CSP違反の記録（開発者ツールでの確認用。TC-17） -->
+    <script src="./csp-watch.js"></script>
+    <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
+    <style>
+      body { margin: 0; background: #fff; }
+    </style>
+    <script type="module" crossorigin src="./assets/index-CS16b-oL.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/jszip.min-CG32BIOO.js">
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
+</html>
