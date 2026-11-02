@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <!-- 本番用マニフェスト（Pages から配信）。共有フォルダーカタログに置くのはこちら（V8）。
-     Org名を変える場合は "proposal-assist-lab" をすべて置き換える -->
+     Org名を変える場合は "proposal-assist-lab" をすべて置き換える。アイコンを変えたら deckfit-v1 の版を上げる -->
 <OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1"
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0"
            xmlns:ov="http://schemas.microsoft.com/office/taskpaneappversionoverrides"
            xsi:type="TaskPaneApp">
   <Id>ad711067-24fe-4c15-8844-1d16049669fd</Id>
-  <Version>1.0.0.0</Version>
+  <Version>1.1.0.0</Version>
   <ProviderName>BBS Noguchi</ProviderName>
   <DefaultLocale>ja-JP</DefaultLocale>
-  <DisplayName DefaultValue="提案書アシスト"/>
-  <Description DefaultValue="提案書の番号・目次・顧客名の整合をとるアドイン（個人用）"/>
-  <IconUrl DefaultValue="https://proposal-assist-lab.github.io/assets/icon-32.png"/>
-  <HighResolutionIconUrl DefaultValue="https://proposal-assist-lab.github.io/assets/icon-64.png"/>
+  <DisplayName DefaultValue="DeckFit"/>
+  <Description DefaultValue="提案書の章・節番号、アジェンダ、顧客名の整合をとるアドイン"/>
+  <IconUrl DefaultValue="https://proposal-assist-lab.github.io/assets/deckfit-v1-32.png"/>
+  <HighResolutionIconUrl DefaultValue="https://proposal-assist-lab.github.io/assets/deckfit-v1-64.png"/>
   <SupportUrl DefaultValue="https://proposal-assist-lab.github.io/index.html"/>
   <AppDomains>
     <AppDomain>https://proposal-assist-lab.github.io</AppDomain>
@@ -63,19 +63,19 @@
     </Hosts>
     <Resources>
       <bt:Images>
-        <bt:Image id="Icon.16" DefaultValue="https://proposal-assist-lab.github.io/assets/icon-16.png"/>
-        <bt:Image id="Icon.32" DefaultValue="https://proposal-assist-lab.github.io/assets/icon-32.png"/>
-        <bt:Image id="Icon.80" DefaultValue="https://proposal-assist-lab.github.io/assets/icon-80.png"/>
+        <bt:Image id="Icon.16" DefaultValue="https://proposal-assist-lab.github.io/assets/deckfit-v1-16.png"/>
+        <bt:Image id="Icon.32" DefaultValue="https://proposal-assist-lab.github.io/assets/deckfit-v1-32.png"/>
+        <bt:Image id="Icon.80" DefaultValue="https://proposal-assist-lab.github.io/assets/deckfit-v1-80.png"/>
       </bt:Images>
       <bt:Urls>
         <bt:Url id="Taskpane.Url" DefaultValue="https://proposal-assist-lab.github.io/index.html"/>
       </bt:Urls>
       <bt:ShortStrings>
-        <bt:String id="Group.Label" DefaultValue="提案書アシスト"/>
-        <bt:String id="Button.Label" DefaultValue="提案書アシスト"/>
+        <bt:String id="Group.Label" DefaultValue="DeckFit"/>
+        <bt:String id="Button.Label" DefaultValue="DeckFit"/>
       </bt:ShortStrings>
       <bt:LongStrings>
-        <bt:String id="Button.Tooltip" DefaultValue="提案書アシストを開きます"/>
+        <bt:String id="Button.Tooltip" DefaultValue="章・節番号、アジェンダ、顧客名の整合をとります"/>
       </bt:LongStrings>
     </Resources>
   </VersionOverrides>
